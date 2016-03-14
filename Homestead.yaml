@@ -3,6 +3,8 @@ ip: "192.168.17.227"
 memory: 2048
 cpus: 1
 provider: virtualbox
+hostname: resto-presto.local
+name: resto-presto.local
 
 authorize: ~/.ssh/id_rsa.pub
 
@@ -10,7 +12,7 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ../resto-presto
+    - map: ../MGL7315-resto-presto/resto
       to: /home/vagrant/resto-presto
 
 sites:
